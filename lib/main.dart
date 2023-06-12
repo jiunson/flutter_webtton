@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_webtton/screens/home_screen.dart';
-import 'package:flutter_webtton/services/api_service.dart';
 
 void main() {
-  // 테스트 - 데이터 가져오기
-  ApiService().getTodaysToons();
-
   runApp(const MyApp());
 }
 
